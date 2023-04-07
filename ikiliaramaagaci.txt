@@ -1,0 +1,12 @@
+İkili arama ağacı, her düğümün solundaki koldan ulaşılabilecek bütün verilerin düğümün 
+değerinden küçük, sağ kolundan ulaşılabilecek verilerin değerinin o düğümün değerinden
+büyük olmasını şart koşar.Kökü 2 olan 3 düğümlü bir ikili arama ağacı aşağıda verilmiştirç.
+
+ 
+                 2
+                / \
+               1   3
+Bu ağacın kök düğümü 2'dir ve alt düğümleri 1 ve 3'tür.Alt düğümlerin toplamı
+1 + 3 = 4'tür,ancak kök değeri 2'dir.Bu nedenle,kök değeri alt düğümlerin toplamı değildir.
+Bir alt düğümün değeri kökten büyük olmak zorunda olduğu için hiçbir şekilde alt düğümlerin
+toplamı köke eşit ve kökten küçük olamaz.
